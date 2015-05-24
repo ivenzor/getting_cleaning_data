@@ -7,7 +7,7 @@
 ## Section 6 will save the second tidy data set
 ##
 ## Note1: plyr and reshape2 libraries are going to be used
-## Note2: it is assumed the zip files are in working directory
+## Note2: it is assumed the source zip file was unzipped in the working directory
 ##
 ##
 ##  Section 1	##
