@@ -6,13 +6,12 @@
 ## Section 5 will compute the average of each variable for each activity and each subject
 ## Section 6 will save the second tidy data set
 ##
-## Note: plyr and reshape2 libraries are going to be used
+## Note1: plyr and reshape2 libraries are going to be used
+## Note2: it is assumed the zip files are in working directory
 ##
 ##
 ##  Section 1	##
 ##
-## setting the working directory where the data is located
-setwd("C:/Documents and Settings/Ivan V/test_repo/data/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
 ## activity labels will be used later on
 actLab <- read.table("./activity_labels.txt")
 ## read the test-related files
